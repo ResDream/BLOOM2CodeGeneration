@@ -11,7 +11,7 @@ def entry_point(
     sample_file: str = r"C:\Users\28024\Desktop\MindNLP\论文解读\human-eval\data\example_samples.jsonl",
     k: str = "1,10,100",
     n_workers: int = 4,
-    timeout: float = 3.0,
+    timeout: float = 5.0,
     problem_file: str = r"C:\Users\28024\Desktop\MindNLP\论文解读\human-eval\data\human-eval-v2-20210705.jsonl",
 ):
     """
